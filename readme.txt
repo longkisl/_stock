@@ -16,3 +16,6 @@ git status     # 查看状态，
 git add    文件名/ .    # 加入文件，或所有文件
 
 git  commit -m  '版本号'   # 生成一个版本
+
+
+git log    # 查看生成记录
