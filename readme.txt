@@ -19,3 +19,11 @@ git  commit -m  '版本号'   # 生成一个版本
 
 
 git log    # 查看生成记录
+
+
+
+git reflog 
+
+
+git reset --hard   版本号
+
