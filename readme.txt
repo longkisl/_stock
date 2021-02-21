@@ -51,5 +51,9 @@ git branch -D  分支名    # 删除未合并的分支
 
 git remote add origin https://github.com/longkisl/_stock.git    #  给远程仓库起一个别名 origin
 
-git push -u origin master 
+git push -u origin 分支    # 将版本推送至  github
+
+
+# 克隆 远程仓库代码，内部已经设置别名 origin ，不需要再次设置了
+git clone 远程仓库地址    # 克隆到远程仓库内容
 
