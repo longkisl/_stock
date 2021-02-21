@@ -46,3 +46,10 @@ git branch -d  分支名   # 删除分支 【需要分支先被 合并了】
 
 git branch -D  分支名    # 删除未合并的分支 
 
+
+四、基于 github做代码托管
+
+git remote add origin https://github.com/longkisl/_stock.git    #  给远程仓库起一个别名 origin
+
+git push -u origin master 
+
