@@ -80,4 +80,19 @@ vim merge.txt   # 打开提示冲突的文件，手动处理。
 【vim 操作 esc退出编辑模式，i进入编辑模式； esc到非编辑模式后， 两次 d d 键可删除行】
 
 
+处理好冲突后，继续开发，提交。
+
+
+
+
+【小知识】
+
+git pull origin dev 相当于两句：
+
+git fetch origin dev     # 从远程仓库拉取dev到本地版本库。 再合并
+git merge origin/dev     #  origin/dev  中间有 /,前面有 origin ，表示合并的是远程仓库拉来的 dev
+
+
+
+
 
